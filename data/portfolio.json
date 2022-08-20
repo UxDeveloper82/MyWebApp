@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "type": "spa",
+        "name": "Friend-App",
+        "portfolioPhoto":"Friendsite"
+    },
+    {
+      "id": "2",
+      "type": "aspnetcore",
+      "name": "Repair-App",
+      "portfolioPhoto":"orrepair"
+    },
+    {
+      "id": "3",
+      "type":"aspnetcore",
+      "name": "Inventory-App",
+      "portfolioPhoto":"inventory"
+  },
+  {
+    "id": "4",
+    "type":"javascript",
+    "name": "Managmanent-App",
+    "portfolioPhoto":"budget"
+  },
+  {
+    "id": "5",
+    "type":"javascript",
+    "name": "PigGame-App",
+    "portfolioPhoto":"piggame"
+  },
+  {
+    "id": "6",
+    "type":"html",
+    "name": "Electronics-App",
+    "portfolioPhoto":"websites"
+  },
+  {
+    "id": "7",
+    "type":"javascript",
+    "name": "GitFinder-App",
+    "portfolioPhoto":"githubfinder"
+  }
+  ]
+  
