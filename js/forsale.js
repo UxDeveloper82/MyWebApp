@@ -15,7 +15,9 @@ let price;
 let imageSrc;
 let cartItemNames;
 let cartRowContents;
+let buttonClicked; 
 
+// Ready Method
 const ready = () => {
    for(i = 0 ; i < removeCartItemButtons.length; i++){
        button = removeCartItemButtons[i]
@@ -31,6 +33,8 @@ const ready = () => {
     }
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
+
+// Purchased Method
 const purchaseClicked = () => {
     alert ('Thank you for your purchase')
     while(cartItems.hasChildNodes()) {
@@ -40,7 +44,7 @@ const purchaseClicked = () => {
 }
 //Remove Items from cart
 const removeCartItem = (event) => {
-    let buttonClicked = event.target
+    buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
     updateCartTotal()
 }
@@ -52,7 +56,7 @@ const quantityChanged = (event) =>{
     }
     updateCartTotal()
 }
-
+// Add to cart
 const addToCartClicked = (event) => {
     button = event.target
     let shopItem = button.parentElement.parentElement
@@ -63,7 +67,7 @@ const addToCartClicked = (event) => {
     updateCartTotal()
 
 }
-
+// Add item to cart
 const addItemToCart = (title, price, imageSrc) => {
     cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
