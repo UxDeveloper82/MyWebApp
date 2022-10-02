@@ -1,4 +1,4 @@
-# Welcome To My Persoanle Website - HTML/CSS and JavaScript
+# Welcome To My Personal Website - HTML/CSS and JavaScript
 
 This is the main repository for my Project.
 
