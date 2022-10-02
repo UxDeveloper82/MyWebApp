@@ -29,7 +29,7 @@ const displayMenuItems = (portfolios) => {
                                 </div>
                                 <div class="card-body text-center">
                                     <h4 class="title">${portfolios.name}</h4>
-                                    <a href="/UI/Portfolio/details/${portfolios.id}" class="btn btn-lg card-btn">More Details</a>
+                                    <a href="${portfolios.link}" class="btn btn-lg card-btn">Go to Page</a>
                                 </div>
                             </div>
                 </div>

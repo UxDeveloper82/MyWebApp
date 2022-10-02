@@ -1,45 +1,70 @@
 [
     {
         "id": "1",
-        "type": "spa",
-        "name": "Friend-App",
-        "portfolioPhoto":"Friendsite"
+        "type": "javascript",
+        "name": "Tabs-App",
+        "portfolioPhoto":"mytabswithjs",
+        "link":"https://mytabswithjs.netlify.app/"
     },
     {
       "id": "2",
+      "type":"javascript",
+      "name": "Rolldice-App",
+      "portfolioPhoto":"dicesroll",
+      "link":"https://dicesroll.netlify.app/"
+    },
+    {
+      "id":"3",
+      "type":"spa",
+      "name":"Ecommerce-App",
+      "portfolioPhoto":"shoppingtime",
+      "link":"https://shoppingtime.netlify.app/"
+    },
+    {
+      "id": "4",
       "type": "aspnetcore",
       "name": "Repair-App",
       "portfolioPhoto":"orrepair"
     },
     {
-      "id": "3",
+      "id": "5",
       "type":"aspnetcore",
       "name": "Inventory-App",
       "portfolioPhoto":"inventory"
   },
   {
-    "id": "4",
-    "type":"javascript",
-    "name": "Managmanent-App",
-    "portfolioPhoto":"budget"
-  },
-  {
-    "id": "5",
-    "type":"javascript",
-    "name": "PigGame-App",
-    "portfolioPhoto":"piggame"
-  },
-  {
     "id": "6",
+    "type":"javascript",
+    "name": "BudgetMoney-App",
+    "portfolioPhoto":"budget",
+    "link":"https://budgetmoney.netlify.app/"
+  },
+  {
+    "id": "7",
     "type":"html",
     "name": "Electronics-App",
     "portfolioPhoto":"websites"
   },
   {
-    "id": "7",
+    "id": "8",
     "type":"javascript",
     "name": "GitFinder-App",
-    "portfolioPhoto":"githubfinder"
+    "portfolioPhoto":"githubfinder",
+    "link":"https://uxdeveloper82.github.io/gitFinder-index.html/"
+  },
+  {
+    "id":"9",
+    "type":"retail",
+    "name":"Website-app",
+    "portfolioPhoto":"dulce-vita",
+    "link":"https://dulce-vita.netlify.app/"
+  },
+  {
+    "id":"10",
+    "type":"javascript",
+    "name":"SearchMovie-App",
+    "portfolioPhoto":"searchmyvideos",
+    "link":"https://searchmyvideos.netlify.app/"
   }
   ]
   
